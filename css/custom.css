@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
